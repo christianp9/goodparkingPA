@@ -1,0 +1,64 @@
+.body{
+    background: #8E2DE2; 
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); 
+    
+}
+h3{
+    font-family: 'Pacifico', cursive;
+}
+.box{
+  background: #FFEFBA;  
+  background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA); 
+  background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+}
+.box input[type = "text"], .box input[type = "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+.box input[type = "text"]:hover,
+ .box input[type = "password"]:hover{
+  width: 280px;
+  border-color: #8E2DE2;
+}
+.box input[type = "submit"]
+{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #8E2DE2;
+  padding: 14px 40px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: #8E2DE2;
+  color: white;
+  transition: background-color 1s ease-out;
+  outline: 0;
+}
+.label{
+  text-align: center;
+  color: black;
+  transition: 25s;
+}
+.label:hover{
+  transition: background-color 3s ease-out;
+  outline: 0;
+  color: #8E2DE2;
+}
